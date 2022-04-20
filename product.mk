@@ -7,6 +7,9 @@ include vendor/google_pixel/codenames.mk
 PRODUCT_PACKAGES += \
     GoogleFonts
 
+PRODUCT_PACKAGES += \
+    ThemePickerGoogle
+
 ## Pixel Apps
 include vendor/google_pixel/apps/GoogleApps.mk
 
